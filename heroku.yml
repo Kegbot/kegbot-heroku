@@ -2,3 +2,8 @@ build:
   docker:
     web: Dockerfile
 
+run:
+  web:
+  workers:
+    command: bin/kegbot run_workers
+    image: web
